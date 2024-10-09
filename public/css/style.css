@@ -1,0 +1,132 @@
+body {
+    background-color: rgba(232, 239, 240, 255);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.header {
+    width: 80%;
+}
+
+.logo-header { 
+    height: 4rem;
+    margin-left: 1rem;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 700;
+    font-size: small;
+}
+
+
+
+
+main {
+    background-color: #f6f3f3;
+    max-width: 80%;
+}
+
+.deal-header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.subscribe-box {
+    margin-bottom: 20px;
+    overflow-x: hidden;
+}
+
+.logo-container {
+    background-color: #f8f9fa;
+    height: 100px;
+    max-width: 100%;
+    margin-top: 20px;
+    border-top: 2px dashed #eae7e7 ;
+    border-bottom: 2px dashed #eae7e7;
+    overflow: hidden;
+}
+
+.logo-img {
+    height: 7em;
+    margin: auto;
+}
+
+.btn-deal {
+    background-color: #a0d468;
+    color: white;
+}
+
+.timer-box {
+    background-image: url("/img/pic.svg");
+    background-size: cover;
+
+
+}
+
+.discount-group {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+}
+
+.ticket {
+    width: 100%;
+}
+
+
+.discount {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.deal-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-buy {
+    width: 100%;
+    background-color: #90ee90; /* Light green */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer; 
+    margin-top: 15px; /* Space between ticket and button */
+}
+
+
+.dashline {
+    display: block;
+    border-top: 2px dashed #888;
+}
+
+.deal-box{
+    border: 2px dashed #888;
+    border-right: none;
+    padding: 1rem;
+}
+
+.deal-container{
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.detail{
+    border-right: 2px dashed #888;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .ticket {
+            border: 1px dashed #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            margin: 20px auto;
+        }
+        .ticket-top, .ticket-bottom {
+            border-top: 1px dashed #ccc; /* Add dashed border top */
+        }
+
+        .discount {
+            font-size: 4em;
+            font-weight: bold;
+        }
+
+        .deal-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        
+        .btn-buy {
+            width: 100%;
+            background-color: #90ee90; /* Light green */
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer; 
+            margin-top: 15px; /* Space between ticket and button */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ticket">
+        <div class="ticket-top">
+            <p>This deal will end in:</p>
+            <p>6 days 1 hrs 52 min 51 sec</p>
+        </div>
+        <div>
+            <p class="discount">43%</p>
+            <p>Discount</p>
+        </div>
+        <div class="deal-info">
+            <div><p>Deal Value</p><p>$47</p></div>
+            <div><p>You Save</p><p>$20</p></div>
+        </div>
+        <div>
+            <button type="button" class="btn btn-outline-info btn-sm">
+                <i class="fab fa-twitter"></i> Tweet <span class="badge badge-light">9</span>
+            </button>
+            <button type="button" class="btn btn-outline-primary btn-sm">
+                <i class="fab fa-facebook-f"></i> Like <span class="badge badge-light">5</span>
+            </button>
+        </div>
+        <div class="ticket-bottom"></div>
+    </div>
+    
+    <button class="btn-buy">Buy this deal - 27$</button>
+
+
+    <script src="https://kit.fontawesome.com/xxxxxxxxxx.js" crossorigin="anonymous"></script>  <!-- Replace with your Font Awesome Kit Code -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
